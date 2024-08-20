@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+.box{
+    height: 1000px;
+    width: 734px;
+    background-color: black;
+    display: block;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.img{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    background-image: url("Spotify-White-Logo-Icon-PNG.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    padding-left: 290px;
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.other{
+    margin-left: 50px;
+    background-color: black;
+}
+.sign-ggl{
+    height: 48px;
+    width: 360px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+    
+
+
+}
+.sign-ggl a{
+    text-decoration: none;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+
+}
+.ema-usn {
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+.ema-usn label{
+    background-color: black;
+    color: white;
+   padding-left: 220px;
+}
+
+.rect{
+    margin-left: 220px;
+   /* background-color: black; */
+  
+
+}
+#Email{
+    background-color: black;
+    /* border: 1 px solid rgb(154, 27, 27); */
+    border-radius: 10px;
+    height: 28px;
+    width: 324px;
+    padding:20px
+}
+.pass{
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 90px;
+    margin-left: 220px;
+    background-color: black;
+}
+#pass{
+    background-color: black;
+}
+
+#key{
+    height: 48px;
+    width: 324px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding-left: 20px;
+}
+.keyy{
+    background-color: black;
+    margin-left: 220px;
+    color: white;
+}
+.log-in{
+    height: 52px;
+    width: 324px;
+    margin-top: 20px;
+    margin-left: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black
+}
+.log-in button{
+    height: 100%;
+    width: 324px;
+    background-color: #1ed760;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.Sign-up{
+    display: flex;
+    background-color: black;
+}
+.acc{
+    background-color: black;
+}
+.acc p{
+    background-color: black;
+    color: white;
+    padding-left: 220px;
+    margin-right: 20px;
+    font-size: 16px;
+    color: rgb(142, 145, 148);
+
+}
+
+.s-up a{
+    background-color: black;
+    color: white;
+}

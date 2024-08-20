@@ -1,0 +1,294 @@
+*{
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    color: white;
+
+}
+
+.nav-bar{
+
+
+    height: 80px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+   
+   
+}
+
+
+.nav-logo{
+    height: 60px;
+    width: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 700px;
+
+}
+.logo{
+    height: 36px;
+    width: 132px;
+    background-image: url('Spotify-logo.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+body{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+button {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+}
+
+/* NAV MENU */
+.nav-menu a:hover{
+    color: rgb(175, 15, 15);
+
+}
+.nav-menu span:hover{
+    color: rgb(175, 15, 15);
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.premium{
+    height: 80px;
+    width: 110px;
+    padding-top: 65px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.support{
+    height: 80px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+
+}
+.download{
+    height: 80px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+
+}
+.bar{
+    height: 80px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sign-up{
+    height: 80px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+}
+
+.log-in{
+    height: 80px;
+    width: 62px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+}
+.hero-message{
+    height: 460px;
+    background-color: pink;
+    
+   
+}
+
+
+.page{
+    height: 460px;
+    width: 630px;
+    background-color: rgb(244, 73, 102);
+    /* padding: 110px 20px 20px; */
+    
+
+}
+
+.content1{
+    height: 170px;
+    width: 400px;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-left: 80px;
+    font: 42px;
+    font-weight: 900;
+    
+}
+.amount{
+    font-weight: 0;
+    font-size: 16px;
+}
+
+.main-body{
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+.border{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+}
+.music1{
+    height: 150px;
+    width: 150px;
+    background-image: url('music1.png');
+    background-size: cover;
+
+}
+.music2{
+    height: 150px;
+    width: 150px;
+    background-image: url('music2.png');
+    background-size: cover;
+
+}
+.music3{
+    height: 150px;
+    width: 150px;
+    background-image: url('music3.png');
+    background-size: cover;
+
+}.music4{
+    height: 150px;
+    width: 150px;
+    background-image: url('music4.png');    
+    background-size: cover;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.btn button{
+    background-color: rgb(24, 23, 23);
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    transition-property:width ;
+    transition-duration: .5s;
+    transition-timing-function:ease-in-out;
+    margin-right: 50px;
+
+}
+.btn button:hover{
+    width: 150px;
+
+}
+.btn1 button{
+    background-color: transparent;
+    border: 2px solid black;
+}
+.btn1 button{
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    transition-property:width ;
+    transition-duration: .5s;
+    transition-timing-function:calc();
+    /* margin-left: 20px; */
+}
+.btn1 button:hover{
+    width: 150px;
+
+}
+
+/*------------------------------------------------------------------------ Task-2 -------------------------------------------------------------------------------------*/
+.drop-down{
+    /* display: block; */
+    width: 300px;
+    background-color: rgb(150, 111, 111);
+    display: inline-block;
+    display: none;
+    margin-top: 29px;
+    align-items: center;
+
+    
+}
+
+.drop-down a{
+    display: block;
+    margin-top: 29px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+
+
+}
+.drop-down p{
+    font-size: 10px;
+    margin-top: -20px;
+}
+.d-items{
+    padding-left: 10px;
+    color: rgb(155, 54, 71);
+}
+
+.d-items:hover{
+    color: white;
+    background-color: #000000;
+
+}
+
+
+
+.premium:hover .drop-down  {
+    display: block;
+}
+.premium button:hover{
+    color: rgb(225, 32, 65);
+}
+
+.bbzz{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
